@@ -1,0 +1,114 @@
+
+
+.photolink {
+  color: #fbd52c;
+  font-family: bebasneue;
+}
+
+.about{
+  font-weight: bold;
+}
+
+
+.scrollhead {
+  text-align: right;
+  max-width: 100%;
+  margin: 0px auto 10px;
+  color: #fbd52c;
+  font-size: 1.5em;
+  font-family: bebasneue;
+}
+
+.scrollhead3 {
+  text-align: right;
+  max-width: 100%;
+  margin: 0px auto 10px;
+  color: #fbd52c;
+  font-size: 1.5em;
+  font-family: bebasneue;
+}
+
+.scrollhead2 {
+  text-align: right;
+  max-width: 100%;
+  margin: 0px auto 10px;
+  color: #fbd52c;
+  font-size: 1.5em;
+  font-family: bebasneue;
+}
+
+p.scrollhead1 {
+  text-align: left;
+  max-width: 100%;
+  margin: 0px auto 10px;
+  color: #fbd52c;
+  font-size: 2em;
+  font-family: bebasneue;
+}
+
+p.scrolltext {
+  text-align: justify;
+  max-width: 100%;
+  margin: 0px auto 10px;
+}
+
+div.scrollbar1 {
+  margin: -20px;
+}
+
+.scrolltext{
+  color: #fff;
+}
+
+
+
+a.rslides_nav{
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+
+}
+
+ul.rslides{
+  margin: auto;
+  padding-top: 5em;
+}
+
+
+
+html {
+  background-color:#fff;
+}
+
+.callbacks p.caption {
+  font-size: 1em;
+  color: #fff;
+}
+
+.subhead {
+  font-size: 1.5em;
+  text-align: left;
+  text-decoration: none;
+  color: #fff;
+}
+
+li.rslides1_on.callbacks.callback_nav {
+  width: 100%;
+}
+
+div.callbacks_container {
+  width: 100%;
+}
+
+.quizlink {
+  color: #fff;
+  font-size: 4em;
+  text-decoration: none;
+  font-family: bebasneue;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "bebasneue";
+  src: url('bebasneue/BebasNeue.otf');
+}

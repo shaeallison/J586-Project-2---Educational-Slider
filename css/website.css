@@ -1,0 +1,798 @@
+#scrollbar1
+{
+    width:100%;
+    margin:0px auto 10px;
+    position: relative;
+}
+
+#scrollbar1 .viewport
+{
+    height: 150px;
+    overflow:hidden;
+    position: relative;
+    background: #474747;
+}
+
+#scrollbar1 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
+#scrollbar1 .scrollbar
+{
+    background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -15px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar1 .track
+{
+    background:transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar1 .thumb
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar1 .thumb .end
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar1 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}
+
+/* Scrollbar slide 2 */
+
+#scrollbar2
+{
+    width:100%;
+    margin:0px auto 10px;
+    position: relative;
+}
+
+#scrollbar2 .viewport
+{
+    height: 150px;
+    overflow:hidden;
+    position: relative;
+    background: #474747;
+}
+
+#scrollbar2 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
+#scrollbar2 .scrollbar
+{
+    background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -15px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar2 .track
+{
+    background:transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar2 .thumb
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar2 .thumb .end
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar2 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}
+
+/* Scrollbar for slide 3 */
+
+#scrollbar3
+{
+    width:100%;
+    margin:0px auto 10px;
+    position: relative;
+}
+
+#scrollbar3 .viewport
+{
+    height: 150px;
+    overflow:hidden;
+    position: relative;
+    background: #474747;
+}
+
+#scrollbar3 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
+#scrollbar3 .scrollbar
+{
+    background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -15px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar3 .track
+{
+    background:transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar3 .thumb
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar3 .thumb .end
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar3 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}
+
+
+/* Scrollbar for slide 4 */
+
+#scrollbar4
+{
+    width:100%;
+    margin:0px auto 10px;
+    position: relative;
+}
+
+#scrollbar4 .viewport
+{
+    height: 150px;
+    overflow:hidden;
+    position: relative;
+    background: #474747;
+}
+
+#scrollbar4 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
+#scrollbar4 .scrollbar
+{
+    background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -15px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar4 .track
+{
+    background:transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar4 .thumb
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar4 .thumb .end
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar4 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}
+
+/* Scrollbar for slide 5 */
+
+#scrollbar5
+{
+    width:100%;
+    margin:0px auto 10px;
+    position: relative;
+}
+
+#scrollbar5 .viewport
+{
+    height: 150px;
+    overflow:hidden;
+    position: relative;
+    background: #474747;
+}
+
+#scrollbar5 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
+#scrollbar5 .scrollbar
+{
+    background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -15px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar5 .track
+{
+    background:transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar5 .thumb
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar5 .thumb .end
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar5 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}
+
+/* Scrollbar for slide 6 */
+
+#scrollbar6
+{
+    width:100%;
+    margin:0px auto 10px;
+    position: relative;
+}
+
+#scrollbar6 .viewport
+{
+    height: 150px;
+    overflow:hidden;
+    position: relative;
+    background: #474747;
+}
+
+#scrollbar6 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
+#scrollbar6 .scrollbar
+{
+    background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -15px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar6 .track
+{
+    background:transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar6 .thumb
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar6 .thumb .end
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar6 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}
+
+/* Scrollbar for slide 7 */
+
+#scrollbar7
+{
+    width:100%;
+    margin:0px auto 10px;
+    position: relative;
+}
+
+#scrollbar7 .viewport
+{
+    height: 150px;
+    overflow:hidden;
+    position: relative;
+    background: #474747;
+}
+
+#scrollbar7 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
+#scrollbar7 .scrollbar
+{
+    background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -15px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar7 .track
+{
+    background:transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar7 .thumb
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar7 .thumb .end
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar7 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}
+
+/* Scrollbar for slide 8 */
+
+#scrollbar8
+{
+    width:100%;
+    margin:0px auto 10px;
+    position: relative;
+}
+
+#scrollbar8 .viewport
+{
+    height: 150px;
+    overflow:hidden;
+    position: relative;
+    background: #474747;
+}
+
+#scrollbar8 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
+#scrollbar8 .scrollbar
+{
+    background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -15px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar8 .track
+{
+    background:transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar8 .thumb
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar8 .thumb .end
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar8 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}
+
+/* Scrollbar for slide 9 */
+
+#scrollbar9
+{
+    width:100%;
+    margin:0px auto 10px;
+    position: relative;
+}
+
+#scrollbar9 .viewport
+{
+    height: 150px;
+    overflow:hidden;
+    position: relative;
+    background: #474747;
+}
+
+#scrollbar9 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
+#scrollbar9 .scrollbar
+{
+    background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -15px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar9 .track
+{
+    background:transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar9 .thumb
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar9 .thumb .end
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar9 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}
+
+/* Scrollbar for slide 10 */
+
+#scrollbar10
+{
+    width:100%;
+    margin:0px auto 10px;
+    position: relative;
+}
+
+#scrollbar10 .viewport
+{
+    height: 150px;
+    overflow:hidden;
+    position: relative;
+    background: #474747;
+}
+
+#scrollbar10 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
+#scrollbar10 .scrollbar
+{
+    background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -15px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar10 .track
+{
+    background:transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar10 .thumb
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar10 .thumb .end
+{
+    background:transparent url(../images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar10 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}
